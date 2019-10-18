@@ -1,11 +1,9 @@
 package com.thoughtworks.parkinglot.mockdb;
 
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
-
 import java.util.Arrays;
 import java.util.List;
 
-public class UserRepostory {
+public class UserRepository {
 
     public static List<User> getAllUsers() {
         return Arrays.asList(new User("Tom", "67a5c47845d0f602208d1e06869c7e52"), // 1qaz2wsx3ed
