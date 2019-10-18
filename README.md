@@ -27,7 +27,17 @@
 
 ### 需求6 
 
-作为停车场的主管（Parking Director），我希望看到一张报表，其中包括经理和每个停车仔所管理的车
+作为停车场的主管（Parking Director），我希望看到一张报表，其中包括经理和每个停车仔所管理的车。
+只统计角色(M:Parking Manager B:Boy P:Parking Lot) 空闲车位 已经停车位数
+
+报表：
+M 5 20
+  P 2 10
+  B 2 5
+    P 2 5
+  B 1 5
+    P 0 3
+    P 1 2
 
 
 
